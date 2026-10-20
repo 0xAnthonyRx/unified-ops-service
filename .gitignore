@@ -1,0 +1,23 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# Secrets & Environment configs
+.env
+.env.*
+!.env.example
+
+# IDE configurations
+.vscode/
+.idea/
+
+# Local cache & data
+/tmp/
